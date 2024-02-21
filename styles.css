@@ -1,17 +1,21 @@
 header {
     background-image: url("violets.png");
-    background-color: maroon;
-    opacity: 80%;
+    background-color: rgb(13, 0, 128);
+    opacity: 70%;
 }
 
 header h1{
     height: 250px;
     color:white;
     background-position: left;
-    font-weight: bold;
-    font-size: 175px;
+    font-family: sans-serif;
+   /* font-weight: bold;*/
+    font-size: 150px;
     text-align: center;
     margin: 0px;
+    border: 0px;
+    padding: 15%;
+    position: sticky;
 }
 
 header p{
@@ -42,9 +46,21 @@ section#text-properties {
     padding: 10px 0px 30px 0px;
 }
 
+section#list-properties {
+    color: indigo;
+    background-color: white;
+    max-width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 30px 0px;
+}
+
 /*TABLE STYLING*/
 table {
     min-width: 95%;
+    max-width: 95%;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
