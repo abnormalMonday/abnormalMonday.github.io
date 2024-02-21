@@ -1,0 +1,67 @@
+header h1{
+    height: 250px;
+    color:antiquewhite;
+    background-image: url("violets.png");
+    background-color: maroon;
+    background-position: left;
+    font-weight: bold;
+    font-size: 175px;
+    text-align: center;
+    margin: 0px;
+}
+
+header p{
+    font-size: larger;
+    text-align: center;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*TABLE STYLING*/
+table {
+    min-width: 80%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead th{
+    color:antiquewhite;
+    background-color: indigo;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    min-width: 200px;
+}
+
+th.property{
+    padding: 10px;
+   /* min-width: 200px;
+    max-width: 200px;*/
+    }
+
+/*th.description, th.values {
+    min-width: 300px;
+}*/
+
+td {
+    padding: 5px;
+}
+td.values{
+    text-align: center;
+}
+
+td#property {
+    font-style: bold;
+}
+
